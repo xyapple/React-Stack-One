@@ -25,3 +25,6 @@ Inside package.json
   "react-dom": "^15.5.4"
 }
 ```
+## devDependencies Vs. dependencies
+* devDependencies is development dependencies like babel and webpack
+* dependencies is like react and react-dom which will make sure the application run.
