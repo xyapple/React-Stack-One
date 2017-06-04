@@ -6,7 +6,7 @@ import './static/css/common.less'
 class Hello extends React.Component {
   render() {
     return (
-      <p>Hello world</p>
+      <p>Hello world! React!!</p>
     )
   }
 }
