@@ -1,0 +1,27 @@
+{
+  "name": "react-stack-one",
+  "version": "1.0.0",
+  "description": "--Yin Deascentis tip: when I setup github repository I add .gitignore file; so when I try to push the local git file onto github, it was [rejected]. To solve the problem: ``` $git pull --rebase /*First, rewinding head to replay your work on top of it...*/ $git push origin master ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyapple/React-Stack-One.git"
+  },
+  "author": "Yin Deascentis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyapple/React-Stack-One/issues"
+  },
+  "homepage": "https://github.com/xyapple/React-Stack-One#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
