@@ -26,15 +26,15 @@ module.exports={
     require('autoprefixer') //调用autoprefixer插件，例如 display: flex
 ],
 plugins: [
-    // html 模板插件
+    // html template
     new HtmlWebpackPlugin({
         template: __dirname + '/app/index.tmpl.html'
     }),
 
-    // 热加载插件
+    // Hotloading
     new webpack.HotModuleReplacementPlugin(),
 
-    // 打开浏览器
+    // Open Browser
     new OpenBrowserPlugin({
       url: 'http://localhost:8080'
     }),
