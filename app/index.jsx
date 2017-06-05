@@ -6,18 +6,24 @@ import './static/css/common.less'
 
 class Hello extends React.Component {
   render() {
-    const arr = ['a', 'b', 'c']
+    const arr = ['apple', 'banana', 'coconut']
     return (
-      <div>    
-       <p>Hello world! React!!</p>
       <div>
+       <p>Hello React!!</p>
+      <div>
+        <p onClick={this.clickHandler.bind(this)} style={{fontSize:'28px', display:'block'}}>Fruit Table</p>
         {arr.map((item, index) => {
         return <p key={index}>this is {item}</p>
       })
       }
     </div>
     </div>
-    ) }
+    )
+  }
+    clickHandler(e){
+      e.preventDefault()
+      console.log(Date.now())
+    }
   }
 
 
