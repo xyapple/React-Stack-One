@@ -34,3 +34,9 @@ if(__DEV__){
   window.Perf = Perf
 }
 ```
+```
+npm i react-addons-pure-render-mixin --save
+/*Inside the Todolist*/
+import PureRenderMixin from 'react-addons-pure-render-mixin'
+
+```
