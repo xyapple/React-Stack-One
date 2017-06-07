@@ -22,3 +22,15 @@ app/
         Recommend.jsx
       index.jsx
 index.jsx
+
+# Testing (pick the easy one for this project)
+```
+npm install react-addons-perf --save
+
+//then in app/index.jsx
+
+import Perf from 'react-addons-perf'
+if(__DEV__){
+  window.Perf = Perf
+}
+```

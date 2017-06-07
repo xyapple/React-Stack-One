@@ -6,6 +6,7 @@ import Recommend from './subpage/Recommend'
 import List from './subpage/List'
 
 class Hello extends React.Component {
+  //ES6 provide the constructor function; otherwise will use the getInitalState
     constructor(props, context) {
         super(props, context);
         this.state = {
@@ -22,6 +23,7 @@ class Hello extends React.Component {
                 <Carousel/>
                 <Recommend/>
                 <List/>
+                <hr/>
             </div>
         )
     }
@@ -29,6 +31,22 @@ class Hello extends React.Component {
         this.setState({
             now: Date.now()
         })
+    }
+    //Component life circle
+    componentDidMount(){
+      //ajx calls
+
+
+    }
+    //Component life circle
+    componentDidUpdate(prevProps, prevState){
+      //ajx calls
+      //router
+      console.log("Hi~~")
+    }
+    componentWillUnmount(){
+      //clean setTimeout setInterval
+      //router
     }
 }
 
