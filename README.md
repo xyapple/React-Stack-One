@@ -40,3 +40,8 @@ npm i react-addons-pure-render-mixin --save
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 ```
+
+# React-Router
+```
+npm install react-router --save
+```
