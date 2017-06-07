@@ -13,9 +13,10 @@ class Hello extends React.Component {
         }
     }
     render() {
+      var obj = {a:100, b:true}
         return (
             <div>
-                <Header title="hello页面"/>
+                <Header title="helloPage"/>
                 <p onClick={this.clickHandler.bind(this)}>hello world {this.state.now}</p>
                 <hr/>
                 <Carousel/>

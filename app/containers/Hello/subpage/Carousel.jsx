@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Carousel extends Reach.Component{
+class Carousel extends React.Component{
   render(){
     return (
       <p>Landing Picture </p>

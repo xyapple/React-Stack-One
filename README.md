@@ -10,11 +10,11 @@ $git push origin master
 
 # File Structure
 app/
-  components/
+  components/{Inside will be reusable parts; header will be in every page }
       Header/
         index.js
 
-  containers/
+  containers/{Only use in individual subpage; Data and Logic(event listening; Ajx calls)}
     Hello/
       subpage/
         Carousel.jsx
