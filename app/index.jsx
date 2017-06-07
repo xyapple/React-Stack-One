@@ -9,13 +9,15 @@ class Hello extends React.Component {
     const arr = ['apple', 'banana', 'coconut']
     return (
       <div>
-       <p>Hello React!!</p>
+       <p>Hello React!!123456</p>
+       <br/>
       <div>
         <p onClick={this.clickHandler.bind(this)} style={{fontSize:'28px', display:'block'}}>Fruit Table</p>
-        {arr.map((item, index) => {
-        return <p key={index}>this is {item}</p>
-      })
-      }
+        <ul>
+          {arr.map((item, index) => {
+              return <li key={index}>this is {item}</li>
+          })}
+        </ul>
     </div>
     </div>
     )
