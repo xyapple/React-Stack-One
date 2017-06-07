@@ -6,7 +6,7 @@ class Home extends React.Component {
         return (
             <div>
                 <p>Home</p>
-                <Link to="/Todo">to Todo List</Link>
+                <Link to="/todo">to Todo List</Link>
             </div>
         )
     }
