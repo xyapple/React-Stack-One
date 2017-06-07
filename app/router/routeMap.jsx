@@ -3,7 +3,7 @@ import {Router, Route, IndexRoute} from 'react-router'
 
 import App from '../containers/App'
 import Home from '../containers/Home/'
-import Todo from '../containers/Todo/'
+import List from '../containers/List/'
 import NotFound from '../containers/NotFound/'
 
 class RouteMap extends React.Component {
