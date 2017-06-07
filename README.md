@@ -7,3 +7,18 @@ $git pull --rebase
 /*First, rewinding head to replay your work on top of it...*/
 $git push origin master
 ```
+
+# File Structure
+app/
+  components/
+      Header/
+        index.js
+
+  containers/
+    Hello/
+      subpage/
+        Carousel.jsx
+        List.jsx
+        Recommend.jsx
+      index.jsx
+index.jsx
