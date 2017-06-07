@@ -1,7 +1,7 @@
 import React from 'react'
-
 import Input from '../../components/TodoInput'
 import List from '../../components/TodoList'
+
 
 class Todo extends React.Component {
     constructor(props, context) {

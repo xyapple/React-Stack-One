@@ -2,9 +2,9 @@ import React from 'react'
 import {Router, Route, IndexRoute} from 'react-router'
 
 import App from '../containers/App'
-import Home from '../containers/Home'
-import Todo from '../containers/Todo'
-import NotFound from '../containers/NotFound'
+import Home from '../containers/Home/'
+import Todo from '../containers/Todo/'
+import NotFound from '../containers/NotFound/'
 
 class RouteMap extends React.Component {
   updateHandle() {
@@ -13,11 +13,12 @@ class RouteMap extends React.Component {
   render(){
     return(
       <Router history={this.props.history} onUpdate={this.updateHandle.bind(this)}>
-        <Router path='/' component={App}>
+        <Route path='/' component={App}>
           <IndexRoute component={Home}/>
-          <Router path='list' component={Todo}/>
+          <Route path='list' component={List}/>
           <Route path="*" component={NotFound}/>
-        </Router>
+        </Route>
+      </Router>
     )
   }
 }
