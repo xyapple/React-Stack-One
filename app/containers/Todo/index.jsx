@@ -1,7 +1,11 @@
 import React from 'react'
 import Input from '../../components/TodoInput'
 import List from '../../components/TodoList'
-
+import {
+  HashRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
 class Todo extends React.Component {
     constructor(props, context) {

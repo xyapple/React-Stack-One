@@ -43,5 +43,11 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 # React-Router
 ```
+// this is v2.3 or v3.0
 npm install react-router --save
+```
+
+```
+//this is for v4
+npm install --save react-router-dom
 ```

@@ -1,6 +1,10 @@
 import React from 'react'
 import { render } from 'react-dom'
-import {hashHistory} from 'react-router'
+import {
+  HashRouter as Router,
+  Route,
+  hashHistory
+} from 'react-router-dom'
 
 import RouteMap from './router/routeMap'
 
@@ -10,7 +14,7 @@ import './static/css/common.less'
 // import Todo from './containers/Todo/';
 
 // testing
-import Perf from 'react-addons-perf'
+//import Perf from 'react-addons-perf'
 
 
 render(
